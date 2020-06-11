@@ -1,0 +1,281 @@
+body{
+ margin:0;
+ height: 100%;
+ box-sizing: border-box;
+ background-color: #000;
+font-family: 'PT Sans', sans-serif;
+}
+header{
+  background-color: #1a93d8;
+  display: flex;
+}
+.headimg{
+  width:25%;
+}
+header img{
+  width: 15%;
+  margin-top: 1.5%;
+
+}
+header a{
+  margin-top: 1.5%;
+  color:#fff;
+  text-decoration:none;
+}
+header .headmenu{
+  width: 75%;
+  display: flex;
+  margin-right: 3%;
+  justify-content: flex-end;
+
+}
+header .headmenu a{
+  margin-right: 10%;
+}
+section{
+  display: flex;
+  width: 100%;
+  height: 700%;
+  position: absolute;
+}
+.pendiente{
+  width: 33%;
+  height: 100%;
+  background-color: #fff;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+
+
+}
+.tomado{
+  width: 33%;
+  height: 100%;
+  background-color: #fff;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-left: 3px solid #1a93d8;
+
+}
+.finalizado{
+  width: 33%;
+  height: 100%;
+  background-color: #fff;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-left: 3px solid #1a93d8;
+}
+.sectionMenu{
+  width: 15%;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  background-color: grey;
+
+}
+.sectionMenu a{
+  padding-top: 10%;
+  padding-bottom: 10%;
+  color:#fff;
+  text-decoration:none;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #fff;
+}
+.tra{
+  height: 80%;
+  width:85%;
+
+  padding:  3%;
+
+  align-items: center;
+  background-color: #fff;
+  color:#000;
+}
+.cargas{
+  height: 100%;
+  width:85%;
+
+  background-color: #fff;
+  color:#000;
+}
+.tra button{
+  width: 15%;
+  margin-top: 2%;
+}
+.login{
+  height: 100%;
+  width:85%;
+
+  background-color: #fff;
+  color:#000;
+}
+.login form{
+  padding-top: 17%;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+
+}
+.login form div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.tra form{
+  display: flex;
+  flex-direction: column;
+}
+.cargas form input{
+
+}
+.cargas form label{
+  margin:2%;
+}
+.radio{
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+}
+.popup{
+  width:80%;
+  color: #000;
+  margin: 3%;
+  border-radius: 1%;
+  padding: 2%;
+  box-shadow: 0px 8px 8px 0px rgba(0,0,0.7,0.7);
+
+}
+h3{
+  text-align: center;
+}
+
+
+.fecha{
+
+  font-size: 70%;
+}
+.popuph{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.cargasUser{
+  height: 100%;
+  width:85%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  color:#000;
+  align-items: center;
+  padding-top: 6%;
+
+}
+.cargasUser select{
+ width: 100%;
+}
+.submit {
+  margin-left: 63%;
+  text-decoration: none;
+
+}
+.sub{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.sub .submit{
+  margin-left: 0%;
+}
+h2{
+  color: #1a93d8;
+}
+.busca{
+  padding-top: 3%;
+  height: 100%;
+  width:85%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  color:#000;
+  align-items: center;
+}
+.busca table{
+  margin-top: 2%;
+  width: 95%;
+  border: 1px solid #1a93d8;
+  box-shadow: 0px 8px 8px 0px rgba(0,0,0.7,0.7);
+}
+.busca table tr:nth-child(odd){
+  background-color: #dee1e5;
+}
+.forms{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+.forms form{
+  display: flex;
+  flex-direction: column;
+}
+.email{
+  width: 100%;
+  display: flex;
+  height: 100%;
+  padding: 3%;
+
+  background-color: #fff;
+}
+.email .sectores{
+  color: #000;
+  margin-bottom: 2%;
+}
+.email label{
+  color:#000;
+}
+.tra select{
+
+}
+.tra label{
+  margin-top: 1%;
+}
+.edit{
+  height: 80%;
+  width:85%;
+
+  padding:  3%;
+
+  align-items: center;
+  background-color: #fff;
+  color:#000;
+}
+.edit form{
+  display: flex;
+  flex-direction: column;
+}
+.edit button{
+  width: 15%;
+  margin-top: 2%;
+}
+
+.btn {
+    border-radius: 2px;
+  }
+
+  .bg-gradient {
+    background: rgba(38, 38, 38, 1);
+    background: -moz-linear-gradient(left, rgba(38, 38, 38, 1) 0%, rgba(28, 33, 28, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(38, 38, 38, 1)), color-stop(100%, rgba(28, 33, 28, 1)));
+    background: -webkit-linear-gradient(left, rgba(38, 38, 38, 1) 0%, rgba(28, 33, 28, 1) 100%);
+    background: -o-linear-gradient(left, rgba(38, 38, 38, 1) 0%, rgba(28, 33, 28, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(38, 38, 38, 1) 0%, rgba(28, 33, 28, 1) 100%);
+    background: linear-gradient(to right, rgba(38, 38, 38, 1) 0%, rgba(28, 33, 28, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#262626', endColorstr='#1c211c', GradientType=1);
+  }
